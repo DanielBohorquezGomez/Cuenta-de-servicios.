@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Factura</title>
+	<link rel="stylesheet" type="text/css" href="../css/factura.css">
+	<script type="text/javascript" src="../js/factura.js"></script>
+
+
+</head>
+<body>
+	
+<form>
+	<table width="400" align="center" border="0" >
+		<tr>
+			<td align="center" colspan="2" class="titulo">Factura</td>
+		</tr>
+		<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+		<tr>
+			<td>Energia</td>
+			<td><input type="text" name="energia" id="energia" maxlength="15" placeholder="Energia" class="caja" ></td>
+		</tr>
+<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+		<tr>
+			<td>Alcantarillado</td>
+			<td><input type="text" name="alcantarillado" id="alcantarillado" maxlength="15" placeholder="Alcantarillado" class="caja" ></td>
+		</tr>
+<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+		<tr>
+			<td>Agua</td>
+			<td><input type="text" name="agua" id="agua" maxlength="15" placeholder="Agua" class="caja" ></td>
+		</tr>
+<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+		<tr>
+			<td>Telefonia</td>
+			<td><input type="text" name="telefonia" id="telefonia" maxlength="15" placeholder="Telefonia" class="caja" ></td>
+		</tr>
+<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+		<tr>
+			<td>Otros</td>
+			<td><input type="text" name="otros" id="otros" maxlength="15" placeholder="Otros gastos" class="caja" ></td>
+		</tr>
+
+		<tr>
+			<td colspan="2">&nbsp;</td> 
+		</tr>
+
+		<tr>
+			<td colspan="2" align="center">
+			<input type="button" class="boton" value="Calcular" onclick="return control()">
+			<input type="reset" class="boton" value="limpiar">
+			</tr>
+	</table>
+
+</form>
+</body>
+</html>
